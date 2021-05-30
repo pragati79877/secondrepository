@@ -1,0 +1,33 @@
+.content{
+  widht:60%;
+  background: red;
+  padding: 0px 0px 0px 30px;
+  color:white;
+  float:left;
+    height:100%;
+}
+body{
+  color:white;
+  background: red;
+}
+#pageno{
+  color:black;
+}
+.sidebar{
+  widht:40%;
+  background:green;
+  padding:10px;
+  color:white;
+  float:right;
+}
+body{
+  color:white;
+}
+h1{
+  text-align: center;
+  border-bottom: 1px solid yellow;
+  padding-bottom:10px;
+}
+a{
+  color:Blue;
+}
