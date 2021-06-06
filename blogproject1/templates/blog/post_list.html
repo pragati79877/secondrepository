@@ -2,6 +2,7 @@
 {% block title_block %}Home Page{% endblock %}
 {% block content_block %}
 <h1>Blog Headings</h1>
+<h1>Changes down by today</h1>
 {% for post in post_list %}
 <a href="{{post.get_absolute_url}}"><h2>{{post.title}}</h2></a>
 <p id="date">Published on {{post.publish}} by {{post.author}}</p>
